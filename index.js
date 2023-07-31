@@ -18,7 +18,7 @@ function digitalClock() {
   minuteEl.innerText = m;
   s = s < 10 ? `0 ${s}` : s;
   secondEl.innerText = s;
-  ampmEl, (innerText = ampm);
+  ampmEl.innerText = ampm;
   setTimeout(() => {
     digitalClock();
   }, 1000);
